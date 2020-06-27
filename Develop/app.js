@@ -122,7 +122,7 @@ async function begin() {
     // `output` folder.
 
     const myteam = fs.readFileSync("templates/main.html");
-    myTeam = eval('`' + myteam + '`');
+    myTeam = eval('`' + myTeam + '`');
     fs.writeFile("output/team.html", myTeam, function (err) {
         if (err) {
             return console.log(err);
