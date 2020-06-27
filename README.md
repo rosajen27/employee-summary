@@ -29,10 +29,11 @@ Deployed Website:
 
 ## Usage
 
-* The generator begins with prompting questions about the manager, with a series of questions being answered about id, email, and office number.
-* After completing the manager information, you are prompted with whether you want to get a summary on engineers or interns. After making a selection, it will run through series of questions pertaining to the team member.
-* Intern information will be prompted by series of questions such as id, email, and school.
-* Once the prompts finish, you will be given an alert that states, "Employee Summary Complete".
+* The generator begins with prompting how many employees are on the team.
+* If there a 0 employees, then a console.log will return stating there are no employees.
+* You will then be prompted with whether you want to get a summary on managers, engineers, or interns. 
+* After making a selection, it will run through series of questions pertaining to the team member.
+* Once the prompts finish, you will be given an alert that states success.
 
 
 ## Tests
