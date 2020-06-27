@@ -18,13 +18,13 @@ Deployed Website:
 * HTML
 * CSS
 * Node.js
-* Inquirer.js
-* Jest
 
 
 ## Installation 
 
 * `npm install`
+* `npm install inquirer`
+* `npm install fs`
 
 
 ## Usage
