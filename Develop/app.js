@@ -87,7 +87,7 @@ async function begin() {
                     .then((data) => {
                         const manager = new Manager(name, id, email, data.officeNumber);
                         empMember = fs.readFileSync("templates/manager.html");
-                        myTeam = myTeam + "\n" + eval('`' + empMember + '`');
+                        myTeam = myTeam + "\r" + eval('`' + empMember + '`');
                     });
                 break;
             case "Engineer":
@@ -99,7 +99,7 @@ async function begin() {
                     .then((data) => {
                         const engineer = new Engineer(name, id, email, data.GitHub);
                         empMember = fs.readFileSync("templates/engineer.html");
-                        myTeam = myTeam + "\n" + eval('`' + empMember + '`');
+                        myTeam = myTeam + "\r" + eval('`' + empMember + '`');
                     });
                 break;
             case "Intern":
@@ -111,7 +111,7 @@ async function begin() {
                     .then((data) => {
                         const intern = new Intern(name, id, email, data.school);
                         empMember = fs.readFileSync("templates/intern.html");
-                        myTeam = myTeam + "\n" + eval('`' + empMember + '`');
+                        myTeam = myTeam + "\r" + eval('`' + empMember + '`');
                     });
                 break;
         }
@@ -122,7 +122,7 @@ async function begin() {
     // `output` folder.
 
     const myteam = fs.readFileSync("templates/main.html");
-    myTeam = eval('`' + myTeam + '`');
+    myTeam = eval('`' + myteam + '`');
     fs.writeFile("output/team.html", myTeam, function (err) {
         if (err) {
             return console.log(err);
