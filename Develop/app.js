@@ -20,7 +20,7 @@ const render = require("./lib/htmlRenderer");
 
 async function begin() {
     console.log("Employee Summary");
-    let myTeam;
+    let myTeam = "";
     let myTeamSize;
 
     await inquirer.prompt({
@@ -32,7 +32,7 @@ async function begin() {
             myTeamSize = data.amountTeam + 1;
         });
 
-    if (myTeamSize === 0) {
+    if (myTeamSize === 1) {
         console.log("Error: There are 0 employees on your team.");
         return;
     }
