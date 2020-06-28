@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f6ff;
+}
+
+.employee-card {
+    margin-top: 20px;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+.jumbotron {
+    background-color: #f3c623;
+}
+
+.card-header {
+    background-color: #10375c;
+    color: #fff;
+    border: 1px solid black;
+}
+
+.card-body {
+    background-color: #f4f6ff;
+    border: 1px solid black;
+}
