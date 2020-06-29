@@ -7,7 +7,7 @@ When the user has completed building the team, the application will create an HT
 
 ## Deployment
 
-Deployed Website:
+Deployed Website: https://rosajen27.github.io/employee-summary/
 
 
 ![Employee Summary 1](./Assets/10-OOP-homework-demo-1.png)
