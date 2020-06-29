@@ -1,5 +1,11 @@
+
 .jumbotron {
     border-bottom: 1px solid #000;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 .text-center {
@@ -9,15 +15,12 @@
 }
 
 .employee-card {
-    margin-top: 20px;
-    margin-right: 20px;
-    min-width: 300px;
+    margin-bottom: 30px;
+    max-width: 300px;
 }
 
 .card-header,
 .card-body {
-
-    color: #fff;
     border: 1px solid black;
 }
 
