@@ -1,0 +1,33 @@
+
+.jumbotron {
+    border-bottom: 1px solid #000;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-center {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.employee-card {
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.card-header,
+.card-body {
+    border: 1px solid black;
+}
+
+h2.card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+h3.card-title {
+    font-family: 'Roboto', sans-serif;
+}
