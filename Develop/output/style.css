@@ -1,5 +1,11 @@
-body {
-    background-color: #f4f6ff;
+.jumbotron {
+    border-bottom: 1px solid #000;
+}
+
+.text-center {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: 700;
 }
 
 .employee-card {
@@ -8,17 +14,17 @@ body {
     min-width: 300px;
 }
 
-.jumbotron {
-    background-color: #f3c623;
-}
+.card-header,
+.card-body {
 
-.card-header {
-    background-color: #10375c;
     color: #fff;
     border: 1px solid black;
 }
 
-.card-body {
-    background-color: #f4f6ff;
-    border: 1px solid black;
+h2.card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+h3.card-title {
+    font-family: 'Roboto', sans-serif;
 }
