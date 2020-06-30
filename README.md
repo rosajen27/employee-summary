@@ -17,6 +17,7 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 
 * HTML
 * CSS
+* JavaScript
 * Node.js
 
 
