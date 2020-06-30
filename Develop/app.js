@@ -94,10 +94,10 @@ async function begin() {
                 await inquirer.prompt([{
                     type: "input",
                     message: "GitHub Username: ",
-                    name: "GitHub"
+                    name: "GitHubUser"
                 }])
                     .then((data) => {
-                        const engineer = new Engineer(name, id, email, data.GitHub);
+                        const engineer = new Engineer(name, id, email, data.GitHubUser);
                         empMember = fs.readFileSync("templates/engineer.html");
                         myTeam = myTeam + "\r" + eval('`' + empMember + '`');
                     });
