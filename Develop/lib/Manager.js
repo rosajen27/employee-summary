@@ -8,7 +8,7 @@ class Manager extends Employee {
     }
 
     //return the manager title/role
-    getRole(){
+    getTitle(){
         return "Manager";
     }
 

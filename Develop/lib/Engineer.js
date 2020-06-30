@@ -14,7 +14,7 @@ class Engineer extends Employee {
     }
 
     //return engineer title
-    getRole () {
+    getTitle () {
         return "Engineer";
     }
 }

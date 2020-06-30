@@ -14,7 +14,7 @@ class Intern extends Employee {
     }
 
      //return role title
-    getRole () {
+    getTitle () {
         return "Intern"
     }
 }
