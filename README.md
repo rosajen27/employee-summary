@@ -61,7 +61,7 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 app.js         // Runs the application
 ```
 
-![jest-test](./Assets/jest-test.png)
+![jest-test](./Assets/jest-test.PNG)
 
 
 ## Authors
