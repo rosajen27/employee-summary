@@ -1,8 +1,8 @@
 # Template Engine - Employee Summary
 
-A Node CLI (command line application) that takes in information about employees and generates an HTML webpage that displays summaries for each person (software engineering team generator). The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. This CLI also passes all unit tests. 
+A Node CLI (command line application) that takes in information about employees and generates an HTML webpage that displays summaries for each person (software engineering team generator). The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of managers, engineers and interns. This CLI also passes all unit tests. 
 
-When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
+When the user has completed building the team, the application will create an HTML file, team.html, in the output folder that displays a nicely formatted team roster based on the information provided by the user. 
 
 
 ## Deployment
@@ -22,6 +22,7 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 
 ## Installation 
 
+* Run app.js in Node in order to answer prompt questions. Other requirements include:
 * `npm install`
 * `npm install inquirer`
 * `npm install fs`
@@ -29,6 +30,7 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 
 ## Usage
 
+* This app may be used for organizing employees into a template.
 * The generator begins with prompting how many employees are on the team.
 * If there a 0 employees, then a console.log will return stating there are no employees.
 * You will then be prompted with whether you want to get a summary on managers, engineers, or interns. 
