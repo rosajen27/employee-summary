@@ -40,29 +40,13 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 
 ## Tests
 
-The dependencies are, [jest](https://jestjs.io/) for running the provided tests, and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user.
-
-There are also unit tests to help you build the classes necessary.
-
-It is recommended that you follow this workflow:
-
-1. Run tests
-2. Create or update classes to pass a single test case
-3. Repeat
-
-🎗 Remember, you can run the tests at any time with `npm run test`
-
-It is recommended that you start with a directory structure that looks like this:
-
+* The dependencies are, [jest](https://jestjs.io/) for running the provided tests, and [inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user.
+* 🎗 Remember, you can run the tests at any time with `npm run test`
 ```
-lib/           // classes and helper code
-output/        // rendered output
-templates/     // HTML template(s)
-test/          // jest tests
-  Employee.test.js
-  Engineer.test.js
-  Intern.test.js
-  Manager.test.js
+  Employee.test.js 
+  Engineer.test.js (PASSED)
+  Intern.test.js (PASSED)
+  Manager.test.js (PASSED)
 app.js         // Runs the application
 ```
 
