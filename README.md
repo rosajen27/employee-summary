@@ -4,7 +4,8 @@ A Node CLI (command line application) that takes in information about employees 
 
 When the user has completed building the team, the application will create an HTML file, team.html, in the output folder that displays a nicely formatted team roster based on the information provided by the user. 
 
-## Table of contents
+
+## Table of Contents
 * [Deployment](#deployment)
 * [Built With](#built-with)
 * [Installation](#installation)
@@ -12,6 +13,7 @@ When the user has completed building the team, the application will create an HT
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgement)
+
 
 ## Deployment
 
