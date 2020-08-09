@@ -22,8 +22,8 @@ Deployed Website: https://rosajen27.github.io/employee-summary/
 Video Demo: https://drive.google.com/file/d/1TocaHc91cHpzkxmY2UtrIzjQqSd0nBJM/view?usp=sharing
 
 
-![Employee Summary 1](./Assets/10-OOP-homework-demo-1.png)
-![Employee Summary 2](./Assets/10-OOP-homework-demo-2.png)
+![Employee Summary 1](./Assets/employee-summary.png)
+
 
 ## Built With
 
