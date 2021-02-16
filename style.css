@@ -1,33 +1,53 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6fa;
+}
 .jumbotron {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #1f1f1f;
+    background-color: #60a3bc;
+    color: #ffff;
 }
 
 .jumbotron h1 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .text-center {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4em;
     font-weight: 700;
 }
 
-.employee-card {
-    margin-bottom: 30px;
-    max-width: 400px;
+.card-header {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    background-color: #82ccdd;
 }
 
-.card-header,
-.card-body {
-    border: 1px solid black;
+.employee-card {
+    margin-bottom: 32px;
+    max-width: 400px;
+    border-radius: 16px;
+    border: 1px solid #1f1f1f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2.card-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bold;
 }
 
 h3.card-title {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
 }

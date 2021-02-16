@@ -1,15 +1,19 @@
 # Template Engine - Employee Summary
 
-A Node CLI (command line application) that takes in information about employees and generates an HTML webpage that displays summaries for each person (software engineering team generator). The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of managers, engineers and interns. This CLI also passes all unit tests. 
+A Command Line Application that takes in information about employees and generates an HTML webpage that displays summaries for each person (software engineering team generator). The user can input any number of team members, and they may be a mix of managers, engineers and interns. This CLI also passes all unit tests. 
 
-When the user has completed building the team, the application will create an HTML file, team.html, in the output folder that displays a nicely formatted team roster based on the information provided by the user. 
+* This app may be used for organizing employees into a template.
+* The generator begins with prompting how many employees are on the team.
+* If there a 0 employees, then a console.log will return an error stating there are no employees.
+* You will then be prompted with whether you want to get a summary on managers, engineers, or interns. 
+* After making a selection, it will run through series of questions pertaining to the team member.
+* Once the prompts finish, you will be given an alert that states success.
+* The application will create an HTML file, team.html, in the output folder that displays a nicely formatted team roster based on the information provided by the user. 
 
 
 ## Table of Contents
 * [Deployment](#deployment)
 * [Built With](#built-with)
-* [Installation](#installation)
-* [Usage](#usage)
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgement)
@@ -17,10 +21,15 @@ When the user has completed building the team, the application will create an HT
 
 ## Deployment
 
-Deployed Website: https://rosajen27.github.io/employee-summary/
+### Version 2
+Demo: https://rosajen27.github.io/employee-summary/
+
+![Employee Summary 1](./Assets/new-employee-summary.png)
+
+
+### Version 1
 
 Video Demo: https://drive.google.com/file/d/1TocaHc91cHpzkxmY2UtrIzjQqSd0nBJM/view?usp=sharing
-
 
 ![Employee Summary 1](./Assets/employee-summary.png)
 
@@ -31,24 +40,6 @@ Video Demo: https://drive.google.com/file/d/1TocaHc91cHpzkxmY2UtrIzjQqSd0nBJM/vi
 * CSS
 * JavaScript
 * Node.js
-
-
-## Installation 
-
-* Run app.js in Node in order to answer prompt questions. Other requirements include:
-* `npm install`
-* `npm install inquirer`
-* `npm install fs`
-
-
-## Usage
-
-* This app may be used for organizing employees into a template.
-* The generator begins with prompting how many employees are on the team.
-* If there a 0 employees, then a console.log will return stating there are no employees.
-* You will then be prompted with whether you want to get a summary on managers, engineers, or interns. 
-* After making a selection, it will run through series of questions pertaining to the team member.
-* Once the prompts finish, you will be given an alert that states success.
 
 
 ## Tests
@@ -78,7 +69,7 @@ app.js         // Runs the application
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2020 Jennifer Rosa
+Copyright (c) 2021 Jennifer Rosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
